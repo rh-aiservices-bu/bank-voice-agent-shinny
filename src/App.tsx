@@ -9,7 +9,7 @@ import { ExplanationPanel } from './components/ExplanationPanel';
 const BASE = import.meta.env.BASE_URL;
 
 const imageSlides = [
-  { page: 0, src: `${BASE}bank-demo-2.png`, title: 'The Agentic AI Revolution', subtitle: 'Can Your Platform Keep Up with Autonomous Agents?' },
+  { page: 0, src: `${BASE}agentops-arch-front.png`, title: 'Enterprise AgentOps', subtitle: 'Operationalizing AI Agents on Red Hat AI' },
   { page: 9, src: `${BASE}agentops-arch.png`, title: 'Enterprise AgentOps', subtitle: 'Bring Your Own Agent \u2014 We Make It Production-Ready' },
 ];
 
