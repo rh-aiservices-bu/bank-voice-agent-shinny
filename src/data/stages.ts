@@ -84,7 +84,7 @@ export const stages: StageDefinition[] = [
       'Kagenti enforces governance policies at the platform level',
       'AuthBridge validates every outbound request against identity-based policies',
     ],
-    image: 'bank-demo-7.png',
+    image: 'bank-demo-7.gif',
   },
   {
     id: 6,
