@@ -21,7 +21,7 @@ function App() {
     () => (currentStage ? stages.find((s) => s.id === currentStage)! : null),
     [currentStage]
   );
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const d = darkMode;
 
   const imageSlide = imageSlides.find(s => s.page === currentPage);
