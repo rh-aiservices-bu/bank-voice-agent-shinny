@@ -106,7 +106,7 @@ export const stages: StageDefinition[] = [
     ],
     image: 'bank-demo-14.png',
     image2: 'bank-demo-14.gif',
-    autoplaySeconds: 20,
+    autoplaySeconds: 30,
   },
   {
     id: 7,
