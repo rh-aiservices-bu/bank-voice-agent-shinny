@@ -143,7 +143,7 @@ export const stages: StageDefinition[] = [
     ],
     image: 'bank-demo-10.gif',
     layout: 'stacked',
-    autoplaySeconds: 35,
+    autoplaySeconds: 65,
   },
   {
     id: 9,
