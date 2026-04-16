@@ -29,6 +29,9 @@
 }
 
 @layer base {
+  html {
+    zoom: 1.25;
+  }
   body {
     background-color: var(--color-slate-950);
     color: var(--color-slate-100);
