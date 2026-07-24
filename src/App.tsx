@@ -10,7 +10,7 @@ const BASE = import.meta.env.BASE_URL;
 
 const imageSlides = [
   { page: 0, src: `${BASE}agentops-arch-front.png`, title: 'Enterprise AgentOps', subtitle: 'Operationalizing AI Agents on Red Hat AI' },
-  { page: 11, src: `${BASE}agentops-arch.png`, title: 'Enterprise AgentOps', subtitle: 'Bring Your Own Agent \u2014 We Make It Production-Ready' },
+  { page: 12, src: `${BASE}agentops-arch.png`, title: 'Enterprise AgentOps', subtitle: 'Bring Your Own Agent - We Make It Production-Ready' },
 ];
 
 function App() {
@@ -222,7 +222,7 @@ function App() {
                         <img
                           src={`${BASE}${stage.image}`}
                           alt={stage.title}
-                          className="w-full object-contain"
+                          className="w-full object-contain max-h-[480px]"
                           onError={(e) => {
                             const target = e.target as HTMLImageElement;
                             target.style.display = 'none';
@@ -287,7 +287,7 @@ function App() {
                 ? 'The Challenge'
                 : currentPage <= 7
                   ? 'Platform'
-                  : currentPage <= 10
+                  : currentPage <= 11
                     ? 'Operations'
                     : 'Summary'}
           </div>
