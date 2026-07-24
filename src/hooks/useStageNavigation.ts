@@ -2,11 +2,11 @@ import { useState, useCallback, useEffect, useRef } from 'react';
 import { stages } from '../data/stages';
 
 const DEFAULT_INTERVAL = 20;
-const TOTAL_PAGES = 12; // 0=intro, 1-10=stages, 11=outro
+const TOTAL_PAGES = 13; // 0=intro, 1-11=stages, 12=outro
 
 function getPageDuration(page: number, globalInterval: number): number {
   // stages array is 0-indexed, pages 1-10 map to stages[0]-stages[9]
-  if (page >= 1 && page <= 10) {
+  if (page >= 1 && page <= 11) {
     const stage = stages[page - 1];
     if (stage?.autoplaySeconds) return stage.autoplaySeconds;
   }
@@ -46,7 +46,7 @@ export function useStageNavigation() {
 
   const toggleAutoplay = useCallback(() => setAutoplay(prev => !prev), []);
 
-  // Autoplay timer — uses per-page duration, loops back to 0 after last page
+  // Autoplay timer - uses per-page duration, loops back to 0 after last page
   useEffect(() => {
     if (!autoplay) {
       clearTimeout(timerRef.current);
@@ -81,7 +81,7 @@ export function useStageNavigation() {
   }, [nextPage, prevPage]);
 
   // Derived: which stage (1-7) is active, or null if on an image page
-  const currentStage = currentPage >= 1 && currentPage <= 10 ? currentPage : null;
+  const currentStage = currentPage >= 1 && currentPage <= 11 ? currentPage : null;
 
   return {
     currentPage, currentStage, direction,
