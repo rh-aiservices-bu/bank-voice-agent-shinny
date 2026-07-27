@@ -1,6 +1,6 @@
 # Enterprise AgentOps: Summit Booth Demo
 
-An interactive, animated demo that walks through the journey of operationalizing AI agents on Red Hat AI, using Acme Bank's multi-agent banking chatbot as the use case.
+An interactive, animated demo that walks through the journey of operationalizing AI agents on Red Hat AI, using Fed Aura Capital Bank's multi-agent banking chatbot as the use case.
 
 ## Stages
 
@@ -8,7 +8,7 @@ The demo progresses through 11 stages across three categories:
 
 **The Challenge (Stages 1-2)**
 
-1. **The Agentic AI Revolution** - Acme Bank's multi-agent LangChain chatbot for banking
+1. **The Agentic AI Revolution** - Fed Aura Capital Bank's multi-agent LangChain chatbot for banking
 2. **The Production Gap** - Why standard MLOps isn't enough for autonomous agents
 
 **Platform (Stages 3-7)**
