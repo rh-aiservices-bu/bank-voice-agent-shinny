@@ -6,10 +6,10 @@ export const stages: StageDefinition[] = [
     slug: 'agentic-revolution',
     title: 'The Agentic AI Revolution',
     subtitle: 'Multi-Agent Banking with LangChain',
-    story: 'Acme Bank builds a multi-agent chatbot for credit cards, loans, investments, and savings',
+    story: 'Fed Aura Capital Bank builds a multi-agent chatbot for credit cards, loans, investments, and savings',
     category: 'challenge',
     description:
-      'Acme Bank develops a multi-agent banking chatbot using LangChain. Multiple specialized agents handle different banking domains - credit cards, loans, investments, and savings - coordinating through an orchestrator agent to deliver a unified customer experience.',
+      'Fed Aura Capital Bank develops a multi-agent banking chatbot using LangChain. Multiple specialized agents handle different banking domains - credit cards, loans, investments, and savings - coordinating through an orchestrator agent to deliver a unified customer experience.',
     bullets: [
       'Agents reason, decide, and take action toward customer goals',
       'Specialized sub-agents for each banking domain (credit cards, loans, investments, savings)',
